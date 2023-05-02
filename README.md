@@ -2,6 +2,7 @@
 
 ## Generate ascii art from a directory tree
 
+```python
 import os
 import os
 import sys
@@ -51,3 +52,4 @@ if __name__ == '__main__':
 	  tree.build_tree()
     else:
         print("\nInsert a valid directory.\n")
+```
